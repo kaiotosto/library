@@ -52,7 +52,7 @@
     border-color: black;
 }
 
-.input {
+#input {
     display: grid;
 }
 
@@ -82,7 +82,7 @@ label {
     border-color: black;
 }
 
-.submit {
+#submit {
     color: black;
     font-size: 1.3rem;
 }
