@@ -41,7 +41,3 @@ function displayBookToLibrary() {
         library.appendChild(row);
     }
 }
-
-button.addEventListener("click");
-
-console.log(book);

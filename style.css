@@ -30,15 +30,6 @@
     border-top: 0px;
 }
 
-.input {
-	width: 200px;
-	height: 40px;
-	border-radius: 25px;
-	border-width: 0px;
-	color: white;
-	background-color: black;
-}
-
 .library {
 	grid-row: 2/3;
     grid-column: 1/2;
@@ -49,4 +40,49 @@
     border-left: 3px;
     border-style: solid;
     border-color: black;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
+.sidebar h1 {
+    text-align: center;
+    align-content: center;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.input {
+    display: grid;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: start;
+    gap: 25%;
+}
+
+label {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.field input {
+    color: black;
+    font-size: 1.3rem;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.submit {
+    color: black;
+    font-size: 1.3rem;
 }
