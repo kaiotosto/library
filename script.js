@@ -1,5 +1,6 @@
 myLibrary = [];
 const library = document.getElementByClass("library");
+const button = document.getElementByClass("input");
 
 function Book(title, author, pages, read){
     this.title = title;
@@ -40,3 +41,7 @@ function displayBookToLibrary() {
         library.appendChild(row);
     }
 }
+
+button.addEventListener("click");
+
+console.log(book);
